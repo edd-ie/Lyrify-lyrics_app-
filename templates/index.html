@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lyrics app</title>
+    <link href="/static/css/main.css" rel="stylesheet">
+</head>
+<body>
+
+    <form class="enter" action="/" method="post">
+        <input required name="artist" type="text" placeholder="Enter artist name"/>
+        <br> <br>
+        <input required name="song" type="text" placeholder="Enter song title"/>
+        <br> <br>
+        <button type="submit">Submit</button>
+    </form>
+
+    <h1>ARTIST: {{ artist }}, SONG: {{ song }} </h1>
+
+    <p>{{ lyrics }}</p>
+
+</body>
+</html>

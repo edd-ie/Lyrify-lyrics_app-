@@ -1,0 +1,22 @@
+*{
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    font-family: "Comic Sans MS", fantasy;
+}
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("/static/images/mountscape.jpg");
+    height: 1080px;
+    background-size: cover;
+    background-position: center;
+
+}
+.enter{
+   padding-left: -150px;
+}
+
+h1, p{
+    font-family: "Lucida Calligraphy", fantasy;
+    color: white;
+    text-align: center;
+}
